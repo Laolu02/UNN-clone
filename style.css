@@ -1,0 +1,212 @@
+body{
+    background-color: white;
+    padding: 0rem;
+    font-family: sans-serif;
+    margin: 0rem;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(166, 165, 165);
+}
+@keyframes btnanim {
+    0%,100% {transform: scale (1);}
+    50% {transform: scale(0.8);}
+}
+button:hover{
+    text-decoration: none;
+    color: rgb(166, 165, 165);
+    background-color: rgb(2, 136, 2);
+    cursor: pointer;
+    animation: btnanim 0.5s ease-in-out;
+}
+.top{
+    color: rgb(2, 136, 2);
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 55%;
+    font-size: small;
+}
+li.topr{
+    border-right: 0.04cm solid black;
+    padding-right: 0.07cm;
+    list-style: none;
+    
+}
+.second{
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    padding-right: 0.7cm;
+}
+.sectop{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    align-items: center;
+    padding: 0rem;
+    margin: 0rem;
+    justify-content: space-around;
+    width: 15%;
+    
+}
+.sectop section{
+    column-gap: 0.5rem;
+}
+.search{
+    border-radius: 0.45rem;
+    border: 0.4rem;
+    background-color: rgb(244, 243, 243);
+    height: 40px;
+    font-size: medium;
+    padding-right: 0.6cm;
+    margin-left: 0%;
+    margin-right: 2%;
+
+}
+.search-icon{
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555;
+    pointer-events: none;
+}
+.portal{
+    border-radius: 0.6rem;
+    border: 0.07rem solid black;
+    background-color: white;
+    height: 40px; 
+    width: 75px;
+    box-shadow: 0rem;
+    padding: 0rem;
+    font-size: medium;
+    
+}
+nav{
+    background-color: green;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+.navl{
+    display: flex;
+    align-items:center;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding: 2rem;
+    padding-bottom: 4rem;
+    font-size: large;
+}
+.navl li a{
+    width: 100%;
+    text-align: center;
+}
+.hpho{
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: center;
+    padding: 0rem;
+    margin-left: 2rem;
+}
+.hpho img{
+    margin: 1rem;
+    height: 400px;
+    width: 94%;
+}
+.logof{
+    height: 2.5cm;
+    width: 7.4cm;
+    padding: 1rem;
+}
+.connect{
+    width: 2rem;
+    padding: 0.1rem;
+}
+.bottomsec{
+    background-color: green;
+    align-items: center;
+    margin: 0rem;
+    justify-content: center;
+}
+.sec{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 1.4rem;
+}
+.sec li{
+    align-content: center;
+    justify-content: space-evenly;
+    border: 0.07rem solid white;
+    height: 40px; 
+    width: 200px;
+    box-shadow: 0rem;
+    padding: 0rem;
+    font-size: medium;
+    border-radius: 0.4rem;
+    text-align: center;
+    font-weight: bold;
+}
+.Discover {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin: 2rem;
+}
+.dics{
+    font-weight: normal;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 11.7rem;
+    text-align: justify;
+}
+.events img{
+    height: 5cm; width: 4.5cm; padding: 0rem;
+}
+.events{
+   display: grid;
+   grid-template-columns:30% 30% 30%;
+   gap: 0.5rem;
+}
+
+.eves{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(84, 84, 84);
+
+}
+.news li{
+    border-bottom: 0.06rem solid silver;
+    font-weight: bold;
+    color: rgb(79, 79, 79);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    justify-content: center;
+}
+.afflogo{
+    padding-inline-start: 0rem;
+}
+.afflogo li{
+    list-style: none;
+    margin: 0rem;
+    margin-bottom: 1rem;
+    padding: 0rem;
+}
+.div2 li{
+    color: rgb(212, 212, 212);
+    padding-bottom: 0.5rem;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
